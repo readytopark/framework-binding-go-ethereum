@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char GoEthereumVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GoEthereum/PublicHeader.h>
 
+#import <GoEthereum/GoEthereumManager.h>
+
 

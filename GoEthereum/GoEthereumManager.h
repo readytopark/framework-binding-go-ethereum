@@ -11,6 +11,6 @@
 @interface GoEthereumManager : NSObject
 
 + (instancetype) sharedInstance;
-+ (NSString *)createAccount:(NSString *)password;
+- (NSString *)createAccount:(NSString *)password;
 
 @end

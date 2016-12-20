@@ -11,8 +11,8 @@
 		FF0CD9201E03DF9B00167D0B /* GoEthereumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0CD91F1E03DF9B00167D0B /* GoEthereumTests.m */; };
 		FF0CD9221E03DF9B00167D0B /* GoEthereum.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0CD9141E03DF9A00167D0B /* GoEthereum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF0CD92D1E03E0CB00167D0B /* Statusgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CD92C1E03E0CB00167D0B /* Statusgo.framework */; };
-		FF0CD9341E03E1AE00167D0B /* GoEthereumManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0CD9321E03E1AE00167D0B /* GoEthereumManager.h */; };
 		FF0CD9351E03E1AE00167D0B /* GoEthereumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0CD9331E03E1AE00167D0B /* GoEthereumManager.m */; };
+		FF0CD9361E08E27E00167D0B /* GoEthereumManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0CD9321E03E1AE00167D0B /* GoEthereumManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0CD9221E03DF9B00167D0B /* GoEthereum.h in Headers */,
-				FF0CD9341E03E1AE00167D0B /* GoEthereumManager.h in Headers */,
+				FF0CD9361E08E27E00167D0B /* GoEthereumManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,7 @@ static GoEthereumManager* sInstance;
     return sInstance;
 }
 
-+ (NSString *)createAccount:(NSString *)password {
+- (NSString *)createAccount:(NSString *)password {
     char * result = CreateAccount((char *) [password UTF8String]);
     
     return [NSString stringWithUTF8String:result];
